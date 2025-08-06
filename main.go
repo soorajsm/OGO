@@ -2,5 +2,9 @@ package main
 
 import "fmt"
 func main() {
-	fmt.Println("Hello, Sooraj")
+	hello("sooraj")
+}
+
+func hello(name string) {
+	fmt.Println("hello"+" "+name+"!!")
 }
